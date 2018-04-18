@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.stack-icon {
+    font-size: 3rem;
+    color: #fff;
+    margin: 1rem;
+    line-height: 1.5 !important;
+}
+
+.navbar-icon {
+    font-size: 2rem;
+    color: #fff;
+    margin: 1rem;
+    line-height: 1.5 !important;
+    float: right;
+}
+
+.name {
+    font-family: 'Lato', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+    margin: 1.5rem;
+}
+
+.tech {
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
