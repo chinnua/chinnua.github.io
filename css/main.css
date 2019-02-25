@@ -6,17 +6,6 @@ body {
     padding: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
-}
-
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 90%;
 }
 
 .stack-icon {
@@ -24,6 +13,13 @@ body {
     color: #fff;
     margin: 1rem;
     line-height: 1.5 !important;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-icon {
@@ -34,21 +30,27 @@ body {
     float: right;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .name {
     font-family: 'Lato', sans-serif;
-    font-size: 5rem;
-    text-align: center;
+    font-size: 4.5rem;
     color: #fff;
-    margin: 1.5rem;
+    flex-flow: row wrap;
+    text-align: center;
 }
 
 .tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     text-align: center;
-}
-
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
