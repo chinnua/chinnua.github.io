@@ -2,10 +2,10 @@ body {
     /* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
     background: linear-gradient(141deg, #0fb8ad, #1fc8db, #2cb5e8, #736efe, #f97794, #623aa2);
     background-size: 1200% 1200%;
-    -webkit-animation: bgGradTrans 30s ease infinite;
-    -moz-animation: bgGradTrans 30s ease infinite;
-    -o-animation: bgGradTrans 30s ease infinite;
-    animation: bgGradTrans 30s ease infinite;
+    -webkit-animation: bgGradTrans 10s ease infinite;
+    -moz-animation: bgGradTrans 10s ease infinite;
+    -o-animation: bgGradTrans 10s ease infinite;
+    animation: bgGradTrans 10s ease infinite;
     width: 100%;
     height: 100%;
     margin: 0;
