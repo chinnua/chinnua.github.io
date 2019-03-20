@@ -75,7 +75,8 @@ body {
 .stack-icon {
     font-size: 3rem;
     color: #fff;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     line-height: 1.5 !important;
 }
 
@@ -109,6 +110,32 @@ body {
     color: #fff;
     flex-flow: row wrap;
     text-align: center;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.sub {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #fff;
+    flex-flow: row wrap;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.separator {
+    border-bottom: 1px solid #fff;
+    width: 30%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .tech {
